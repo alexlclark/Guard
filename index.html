@@ -542,7 +542,7 @@ var jsonFREDData = { //heres the big json dump from FRED
 
 var itemArray=[];
 itemArray.push(jsonFREDData.observations[i].date);//adding date and value to item array (the small array)
-itemArray.push(jsonFREDData.observations[i].value);
+itemArray.push( Number(jsonFREDData.observations[i].value)); //noted itemarray as number
 
 
 arraysFat.push(itemArray); //add my little array to the larger one, arraysFat
@@ -552,7 +552,7 @@ arraysFat.push(itemArray); //add my little array to the larger one, arraysFat
         // Create the data table.
         var data = new google.visualization.DataTable();
         data.addColumn('string', 'date');
-        data.addColumn('string', 'value');
+        data.addColumn('number', 'value');
         data.addRows(arraysFat); // this has to equal the array at the top (the fat one)
 
         // Set chart options
