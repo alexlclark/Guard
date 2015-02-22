@@ -31,7 +31,9 @@ data.addRows(arraysFat); // this has to equal the array at the top (the fat one)
 // Set chart options
 var options = {'title':'Litres of Vodka Exported by Year',
 'width':800,
-'height':1700};
+'height':1700,
+backgroundColor: "transparent",};
+
 
 // Instantiate and draw our chart, passing in some options.
 var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
