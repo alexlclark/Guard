@@ -1,0 +1,33 @@
+body {
+  color: #gray;
+  background-color: gray;
+  background: gray;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 90%;
+}
+
+	
+a { //defining the link styles
+  color: gray;
+  text-decoration: none;
+}
+  a:visited {
+    color: #1a5952;
+  }
+  a:hover, {
+    color: #0599c2;
+    text-decoration: underline;
+  }
+  .multiColumnPrefix {
+  -webkit-column-count: 3; /* Ch, Saf, And, BB  */
+     -moz-column-count: 3; /* Fx */
+          column-count: 3; /* IE 10, Op 11.1+ */
+
+  -webkit-column-gap: 10px;
+     -moz-column-gap: 10px;
+          column-gap: 10px;
+
+  -webkit-column-rule: 2px solid #000000;
+     -moz-column-rule: 2px solid #000000;
+          column-rule: 2px solid #000000;
+}
