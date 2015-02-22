@@ -31,3 +31,8 @@ a { //defining the link styles
      -moz-column-rule: 2px solid #000000;
           column-rule: 2px solid #000000;
 }
+.rotateHammer {
+  -webkit-transform: rotate(40deg); /* Ch <36, Saf 5.1+, iOS, An =<4.4.4 */
+      -ms-transform: rotate(40deg); /* IE 9 */
+          transform: rotate(40deg); /* IE 10, Fx 16+, Op 12.1+ */
+}
