@@ -38,3 +38,14 @@ a { //defining the link styles
       -ms-transform: rotate(3deg); /* IE 9 */
           transform: rotate(3deg); /* IE 10, Fx 16+, Op 12.1+ */
 }
+.marquee {
+    position: absolute;
+    white-space: nowrap;
+    -webkit-animation: rightThenLeft 11s linear;
+}
+
+@-webkit-keyframes rightThenLeft {
+    0%   {left: 0%;}
+    50%  {left: 100%;}
+    100% {left: 0%;}
+}
