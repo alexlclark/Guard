@@ -18,7 +18,7 @@ a { //defining the link styles
     color: #0599c2;
     text-decoration: underline;
   }
-  .multiColumnPrefix {
+  .threeCol {
   -webkit-column-count: 3; /* Ch, Saf, And, BB  */
      -moz-column-count: 3; /* Fx */
           column-count: 3; /* IE 10, Op 11.1+ */
