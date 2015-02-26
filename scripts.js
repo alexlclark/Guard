@@ -45,7 +45,7 @@ vAxis: { textStyle: {color: 'yellow', fontName: 'arial', fontSize: 10} },
 backgroundColor: "transparent",};
 
 options.hAxis.textStyle = myTextStyle
-console.log()
+console.log(options.hAxis)
 
 // Instantiate and draw our chart, passing in some options.
 var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
