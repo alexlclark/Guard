@@ -39,9 +39,12 @@ data.addRows(arraysFat); // this has to equal the array at the top (the fat one)
 var options = {'title':'Litres of Vodka Exported by Year',
 'width':800,
 'height':1700,
-hAxis: { textStyle: {color: 'yellow', fontName: 'arial', fontSize: 10} },
+hAxis: {},
 vAxis: { textStyle: {color: 'yellow', fontName: 'arial', fontSize: 10} },
 backgroundColor: "transparent",};
+
+options.hAxis.textStyle = myTextStyle;
+console.log(options.height)
 
 // Instantiate and draw our chart, passing in some options.
 var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
