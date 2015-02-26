@@ -2,7 +2,7 @@
 var myTextStyle = {
 color: 'yellow', 
 fontName: 'arial', 
-fontSize: 10};
+fontSize: 10,};
 
 
 
