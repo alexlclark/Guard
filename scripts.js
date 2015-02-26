@@ -1,3 +1,9 @@
+*/
+var myTextStyle
+vAxis: { textStyle: {color: 'yellow', fontName: 'arial', fontSize: 10} },
+
+/*
+
 google.load('visualization', '1.0', {'packages':['corechart']});
 
 // Set a callback to run when the Google Visualization API is loaded.
@@ -35,6 +41,8 @@ var options = {'title':'Litres of Vodka Exported by Year',
 hAxis: { textStyle: {color: 'yellow', fontName: 'arial', fontSize: 10} },
 vAxis: { textStyle: {color: 'yellow', fontName: 'arial', fontSize: 10} },
 backgroundColor: "transparent",};
+
+options.hAxis.textStyle = myTextStyle
 console.log()
 
 // Instantiate and draw our chart, passing in some options.
