@@ -1,8 +1,10 @@
-*/
-var myTextStyle
-vAxis: { textStyle: {color: 'yellow', fontName: 'arial', fontSize: 10} },
+*/ area for google viz options/*
+var myTextStyle = {
+color: 'yellow', 
+fontName: 'arial', 
+fontSize: 10};
 
-/*
+
 
 google.load('visualization', '1.0', {'packages':['corechart']});
 
