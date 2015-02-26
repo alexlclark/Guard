@@ -43,6 +43,38 @@ a { //defining the link styles
     white-space: nowrap;
     -webkit-animation: rightThenLeft 11s linear;
 }
+.col-md-1 {
+	background-color:pink;
+	color:black;
+  -webkit-transform: rotate(357deg); /* Ch <36, Saf 5.1+, iOS, An =<4.4.4 */
+      -ms-transform: rotate(357deg); /* IE 9 */
+          transform: rotate(357deg); /* IE 10, Fx 16+, Op 12.1+ */
+        }
+.col-md-2 {
+	background-color:white;
+	color:blue;
+  -webkit-transform: rotate(357deg); /* Ch <36, Saf 5.1+, iOS, An =<4.4.4 */
+      -ms-transform: rotate(357deg); /* IE 9 */
+          transform: rotate(357deg); /* IE 10, Fx 16+, Op 12.1+ */         
+        
+}
+.col-md-4 {
+	background-color:green;
+	color:white;
+  -webkit-transform: rotate(357deg); /* Ch <36, Saf 5.1+, iOS, An =<4.4.4 */
+      -ms-transform: rotate(357deg); /* IE 9 */
+          transform: rotate(357deg); /* IE 10, Fx 16+, Op 12.1+ */         
+        
+}
+.col-md-6 {
+	background-color:purple;
+	color:pink;
+  -webkit-transform: rotate(357deg); /* Ch <36, Saf 5.1+, iOS, An =<4.4.4 */
+      -ms-transform: rotate(357deg); /* IE 9 */
+          transform: rotate(357deg); /* IE 10, Fx 16+, Op 12.1+ */         
+        
+}
+
 
 @-webkit-keyframes rightThenLeft {
     0%   {left: 0%;}
