@@ -1,4 +1,3 @@
-*/ area for google viz options/*
 var myTextStyle = {
 color: 'yellow', 
 fontName: 'arial', 
@@ -43,9 +42,6 @@ var options = {'title':'Litres of Vodka Exported by Year',
 hAxis: { textStyle: {color: 'yellow', fontName: 'arial', fontSize: 10} },
 vAxis: { textStyle: {color: 'yellow', fontName: 'arial', fontSize: 10} },
 backgroundColor: "transparent",};
-
-options.hAxis.textStyle = myTextStyle
-console.log(options.hAxis)
 
 // Instantiate and draw our chart, passing in some options.
 var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
