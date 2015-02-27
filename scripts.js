@@ -4,7 +4,6 @@ fontName: 'arial',
 fontSize: 10,};
 
 
-
 google.load('visualization', '1.0', {'packages':['corechart']});
 
 // Set a callback to run when the Google Visualization API is loaded.
@@ -39,8 +38,8 @@ data.addRows(arraysFat); // this has to equal the array at the top (the fat one)
 var options = {'title':'Litres of Vodka Exported by Year',
 'width':800,
 'height':1700,
-hAxis: {},
-vAxis: { textStyle: {color: 'yellow', fontName: 'arial', fontSize: 10} },
+hAxis: { gridlines: {color: '#fcd116', count: 4} },
+vAxis: { textStyle: {color: '#fcd116', fontName: 'arial', fontSize: 10} },
 backgroundColor: "transparent",};
 
 options.hAxis.textStyle = myTextStyle;
