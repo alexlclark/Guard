@@ -1,7 +1,7 @@
 body {
   color: #fcd116; 
   background: red;
-  background-image: url("http://i.imgur.com/PAT0gxL.jpg"); 
+  background-image: url("seamlessRed.jpg"); 
   font-family: 'Helvetica', sans-serif;
   font-size: 80%;
 }
@@ -68,7 +68,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
   -webkit-transform: rotate(360deg); /* Ch <36, Saf 5.1+, iOS, An =<4.4.4 */
       -ms-transform: rotate(360deg); /* IE 9 */
           transform: rotate(360deg); /* IE 10, Fx 16+, Op 12.1+ */         
-        
+=        
 }
 .col-md-4 {
 	background-color:green;
