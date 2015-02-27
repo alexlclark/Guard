@@ -64,7 +64,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
 .col-md-2 {
 	background-color:white;
 	color:blue;
-	padding-top: 35px;
+	padding-top: 30px;
   -webkit-transform: rotate(360deg); /* Ch <36, Saf 5.1+, iOS, An =<4.4.4 */
       -ms-transform: rotate(360deg); /* IE 9 */
           transform: rotate(360deg); /* IE 10, Fx 16+, Op 12.1+ */         
@@ -73,7 +73,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
 .col-md-4 {
 	background-color:green;
 	color:white;
-	padding-top: 35px;
+	padding-top: 30px;
+  -webkit-transform: rotate(360deg); /* Ch <36, Saf 5.1+, iOS, An =<4.4.4 */
+      -ms-transform: rotate(360deg); /* IE 9 */
+          transform: rotate(360deg); /* IE 10, Fx 16+, Op 12.1+ */         
+        
+}
+.col-md-8 {
+	background-color:purple;
+	color:white;
+	padding-top: 30px;
   -webkit-transform: rotate(360deg); /* Ch <36, Saf 5.1+, iOS, An =<4.4.4 */
       -ms-transform: rotate(360deg); /* IE 9 */
           transform: rotate(360deg); /* IE 10, Fx 16+, Op 12.1+ */         
@@ -90,7 +99,7 @@ background: linear-gradient(to bottom,  #1e5799 0%,#207cca 23%,#207cca 23%,#2989
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
 
 	color:pink;
-	padding-top: 35px;
+	padding-top: 30px;
   -webkit-transform: rotate(359deg); /* Ch <36, Saf 5.1+, iOS, An =<4.4.4 */
       -ms-transform: rotate(359deg); /* IE 9 */
           transform: rotate(359deg); /* IE 10, Fx 16+, Op 12.1+ */         
