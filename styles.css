@@ -79,6 +79,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
           transform: rotate(360deg); /* IE 10, Fx 16+, Op 12.1+ */         
         
 }
+.col-sm-4 {
+	background-color:lime;
+	color:black;
+	padding-top: 30px;
+  -webkit-transform: rotate(360deg); /* Ch <36, Saf 5.1+, iOS, An =<4.4.4 */
+      -ms-transform: rotate(360deg); /* IE 9 */
+          transform: rotate(360deg); /* IE 10, Fx 16+, Op 12.1+ */         
+        
+}
 .col-md-8 {
 	background-color:purple;
 	color:white;
