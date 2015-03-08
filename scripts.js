@@ -10,10 +10,10 @@ L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
 
 var shelters = shelterData.rows;
 
-for (var i=0; i<shelters.length; i++) {
-	
-var individualWarmingShelters = shelters[i];	
+for (var i = 0; i < shelters.length; i++) {
 
-var marker = L.marker([individualWarmingShelters.latitude, individualWarmingShelters.longitude]).addTo(map);
-marker.bindPopup("<b>"+individualWarmingShelters.FullAddress+"</b><br>This location is in the following borough:"+"<br>"+individualWarmingShelters.Borough+"</b><br>The zipcode for this location is:"+"<br>"+individualWarmingShelters.ZipCode).openPopup(); 
+	var individualWarmingShelters = shelters[i];
+
+	var marker = L.marker([individualWarmingShelters.latitude, individualWarmingShelters.longitude]).addTo(map);
+	marker.bindPopup("<b>" + individualWarmingShelters.FullAddress + "</b><br>This location is in the following borough:" + "<br>" + individualWarmingShelters.Borough + "</b><br>The zipcode for this location is:" + "<br>" + individualWarmingShelters.ZipCode).openPopup();
 } // end of for loop!! 
