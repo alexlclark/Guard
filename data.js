@@ -1,3 +1,5 @@
+var shelterData = {
+  "rows" : [
     {
       "DFTAID" : "13V",
       "Program Name" : "ARTURO SCHOMBERG SENIOR CENTER",
@@ -3400,3 +3402,5 @@
       "Borough" : "STATEN",
       "ZipCode" : 10310
     }
+  ]
+}
