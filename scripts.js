@@ -15,5 +15,5 @@ for (var i=0; i<shelters.length; i++) {
 var individualWarmingShelters = shelters[i];	
 
 var marker = L.marker([individualWarmingShelters.latitude, individualWarmingShelters.longitude]).addTo(map);
-marker.bindPopup("<b>"+individualWarmingShelters.FullAddress+"</b><br>Alex lives here!"+"<br>"+individualWarmingShelters.Borough).openPopup(); 
+marker.bindPopup("<b>"+individualWarmingShelters.FullAddress+"</b><br>This is located in"+"<br>"+individualWarmingShelters.Borough).openPopup(); 
 } // end of for loop!! 
