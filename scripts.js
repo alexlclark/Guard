@@ -1,19 +1,12 @@
-/**
- * @author Alex Lewis Clark
- */
-var map = L.map('leafletMap').setView([39.906081, -73.965308], 13);
+for (var i=0; i<guardianHeroinData.length; i++) {
 
-// add an OpenStreetMap tile layer
-L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-	attribution : '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-}).addTo(map);
 
-var shelters = shelterData.rows;
+var rowData = guardianHeroinData[i];
 
-for (var i = 0; i < shelters.length; i++) {
-
-	var individualWarmingShelters = shelters[i];
-
-	var marker = L.marker([individualWarmingShelters.latitude, individualWarmingShelters.longitude]).addTo(map);
-	marker.bindPopup("<b>" + individualWarmingShelters.FullAddress + "</b><br>This location is in the following borough:" + "<br>" + individualWarmingShelters.Borough + "</b><br>The zipcode for this location is:" + "<br>" + individualWarmingShelters.ZipCode).openPopup();
-} // end of for loop!! 
+var template = '<div class="quoteContainer" id=quote-'+i+>'+
+'<div class="mainQuote">After all these years, I still have some kind of sick fascination with heroin</div>'+
+'<div class="wholeQuote">Heroin is a very potent drug. The high feels like a long lasting orgasm. Recovery from heroin addiction is almost a miracle. Because it is not only your body that screams for the substance. Your brain wants it too. Without heroin, emotional pain feels unbearable.</div>'+
+'<div class="yearsClean">22 Years Clean</div>'+
+'<div class="Location">London, UK</div>'+
+'</div>'+
+}
