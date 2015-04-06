@@ -545,13 +545,10 @@ a:hover {
 	margin-bottom:10px;
 	width:700px;
 }
-
 #content .post-text-wrapper {
-	width:560px;
+	width:460px;
 	float:right;	
 }
-
-
 body.home .post img.tfe, body.archive .post img.tfe, body.search .post img.tfe  {
 	position:absolute;
 	top:0;
@@ -560,14 +557,7 @@ body.home .post img.tfe, body.archive .post img.tfe, body.search .post img.tfe  
 }
 #content .post-wrap img.alignleft {
 	border:5px solid #e6e6e6;
-	margin:0;
-}
-body.tax-issue #content {
-	float:left;	
-}
-body.tax-issue #container h1.page-title {
-	text-align:center;
-	width:630px;
+	margin:5;
 	
 	font-family:"futura-pt", "Arial Black", Gadget, sans-serif;
 	font-weight:400;
@@ -579,37 +569,8 @@ body.tax-issue #container h1.page-title {
 	margin-bottom:15px;
 	float:left;
 }
-body.tax-issue #container h1.page-title .issue-title,
-.category.category-web-exclusive .page-title,
-.category.category-artnewsletter-archive .page-title {
-	font-family:"futura-pt", "Arial Black", Gadget, sans-serif;
-	font-weight:400;
-	color:#000;
-	font-size:27px;
-	display:block;
-	font-style:normal;
-	clear:both;
-	margin-bottom:5px;
-}
-.home .sticky {
-	position:relative;
-	background: #f2f7fc;
-	border: 1px solid #000;
-	padding: 18px 20px;
-}
-.home .sticky img.tfe {
-	margin:20px 0 0 20px;
-}
-.single .hentry {
-	margin: 0 0 36px 0;
-}
-.page-title {
-	font-family:"futura-pt", "Arial Black", Gadget, sans-serif;
-	font-weight:900;
-	color: #000;
-	font-size: 14px;
-	margin: 0 0 36px 0;
-	
+
+]\
 }
 .category .page-title {
 	display:none;
@@ -912,7 +873,6 @@ body.page .edit-link {
 .entry-utility .cat-links a:hover  {
 	
 }
-
 .entry-utility .issue-btn a,
 .entry-utility .cat-links a.cat-web-exclusive {
 	padding:10px;	
@@ -944,27 +904,6 @@ body.page .edit-link {
 	margin-bottom:-20px;
 	padding:5px;
 }
-/* =Asides
--------------------------------------------------------------- */
-.home #content .format-aside p,
-.home #content .category-asides p {
-	font-size: 14px;
-	line-height: 20px;
-	margin-bottom: 10px;
-	margin-top: 0;
-}
-.home .hentry.format-aside,
-.home .hentry.category-asides {
-	padding: 0;
-}
-.home #content .format-aside .entry-content,
-.home #content .category-asides .entry-content {
-	padding-top: 0;
-}
-
-
-
-
 
 /*
 Resize images to fit the main content area.
@@ -986,6 +925,9 @@ img.alignleft {
 	float: left;
 	margin-right: 24px;
 	margin-top: 44px;
+	 border-style: solid;
+    border-width: 6px;
+   border-color: #ededed;
 }
 .alignright,
 img.alignright {
