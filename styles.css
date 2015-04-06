@@ -89,11 +89,8 @@ pre {
 code {
 	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
 }
-
-
 /* =Global Elements
 -------------------------------------------------------------- */
-
 /* Main global 'theme' and typographic styles */
 body {
 	background: #fff;
@@ -102,7 +99,7 @@ body,
 input,
 textarea {
 	color: #000;
-	font-size: 14px;
+	font-size: 12px;
 	line-height: 20px;
 }
 hr {
@@ -110,7 +107,7 @@ hr {
 	border: 0;
 	clear: both;
 	height: 1px;
-	margin-bottom: 18px;
+	margin-bottom: 16px;
 }
 
 /* Text elements */
@@ -168,22 +165,7 @@ blockquote {
 	font-style: italic;
 	padding: 0 3em;
 }
-blockquote cite,
-blockquote em,
-blockquote i {
-	font-style: normal;
-}
-pre {
-	background: #f7f7f7;
-	color: #222;
-	line-height: 18px;
-	margin-bottom: 18px;
-	padding: 1.5em;
-}
-abbr,
-acronym {
-	/*border-bottom: 1px dotted #666;
-	cursor: help;*/
+
 }
 sup,
 sub {
@@ -245,14 +227,6 @@ a:hover {
 	height:0;
 	clear:both;	
 }
-
-/* Text meant only for screen readers */
-.screen-reader-text {
-	position: absolute;
-	left: -9000px;
-}
-
-
 /* =Content
 -------------------------------------------------------------- */
 
@@ -317,7 +291,7 @@ a:hover {
 	line-height: 21px;
 }
 #content code {
-	font-size: 13px;
+	font-size: 11px;
 }
 #content dt,
 #content th {
@@ -345,7 +319,7 @@ a:hover {
 	font-size: 12px;
 	font-weight: bold;
 	line-height: 18px;
-	padding: 9px 24px;
+	padding: 9px 22px;
 }
 #content tr td {
 	border-top: 1px solid #e7e7e7;
@@ -355,16 +329,9 @@ a:hover {
 	background: #f2f7fc;
 }
 .hentry {
-	margin: 0 0 48px 0;
+	margin: 0 0 42px 0;
 }
-/*.post-wrap {
-	position:relative;	
-}
-.post-wrap img {
-	position:absolute;
-	top:0;
-	right:0;	
-}*/
+
 #content .post-wrap {
 	
 	position:relative;	
@@ -415,7 +382,7 @@ body.tax-issue .page-title, .search .page-title {
 }	
 .page-title span {
 	color: #333;
-	font-size: 16px;
+	font-size: 14px;
 	font-style: italic;
 	font-weight: normal;
 }
@@ -431,7 +398,7 @@ body.tax-issue .page-title, .search .page-title {
 #content .entry-title {
 	color: #000;
 	font-size: 2em !important;
-	font-size:18px \9 !important;
+	font-size:14px \9 !important;
 	font-size:2em \0/ !important;
 	line-height: 1;
 	margin-bottom: 10px;
@@ -481,7 +448,7 @@ body.tax-issue .page-title, .search .page-title {
 	font-family:"Impact", "Arial Black", Gadget, sans-serif;
 	font-weight:900;
 	text-decoration:none !important;
-	font-size:9px;
+	font-size:8px;
 	color:#b5b5b5;
 	clear:both;
 	border:none !important;
@@ -793,53 +760,4 @@ img.aligncenter {
 	font-size: 12px;
 	padding:5px;
 	margin-bottom:0;
-}
-
-.wp-smiley {
-	margin: 0;
-}
-.gallery {
-	margin: 0 auto 18px;
-}
-.gallery .gallery-item {
-	float: left;
-	margin-top: 0;
-	text-align: center;
-	width: 33%;
-}
-.gallery-columns-2 .gallery-item {
-	width: 50%;
-}
-.gallery-columns-4 .gallery-item {
-	width: 25%;
-}
-.gallery img {
-	border: 2px solid #cfcfcf;
-}
-.gallery-columns-2 .attachment-medium {
-	max-width: 92%;
-	height: auto;
-}
-.gallery-columns-4 .attachment-thumbnail {
-	max-width: 84%;
-	height: auto;
-}
-.gallery .gallery-caption {
-	color: #888;
-	font-size: 12px;
-	margin: 0 12px 12px;
-	line-height: 1.2;
-}
-.gallery dl {
-	margin: 0;
-}
-.gallery img {
-	border: 10px solid #f1f1f1;
-}
-.gallery br+br {
-	display: none;
-}
-#content .attachment img {/* single attachment images should be centered */
-	display: block;
-	margin: 0 auto;
 }
