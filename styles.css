@@ -1,15 +1,5 @@
-/*Publication: ArtNews > see http://www.artnews.com/
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, font, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td {
+/*Publication: ArtNews > see http://www.artnews.com */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
 	background: transparent;
 	border: 0;
 	margin: 0;
@@ -45,39 +35,11 @@ a img {
 	border: none;
 }
 /* =Fonts
--------------------------------------------------------------- */
-body,
-input,
-textarea,
-.page-title span,
-.pingback a.url {
+ -------------------------------------------------------------- */
+body, input, textarea, .page-title span, .pingback a.url {
 	font-family: "adobe-caslon-pro", Georgia, "Bitstream Charter", serif;
 }
-h3#comments-title,
-h3#reply-title,
-#access .menu,
-#access div.menu ul,
-#cancel-comment-reply-link,
-.form-allowed-tags,
-#site-info,
-#site-title,
-#wp-calendar,
-.comment-meta,
-.comment-body tr th,
-.comment-body thead th,
-.entry-content label,
-.entry-content tr th,
-.entry-content thead th,
-.entry-meta,
-.entry-title,
-.entry-utility,
-#respond label,
-.navigation,
-.page-title,
-.pingback p,
-.reply,
-.widget-title,
-.wp-caption-text {
+h3#comments-title, h3#reply-title, #access .menu, #access div.menu ul, #cancel-comment-reply-link, .form-allowed-tags, #site-info, #site-title, #wp-calendar, .comment-meta, .comment-body tr th, .comment-body thead th, .entry-content label, .entry-content tr th, .entry-content thead th, .entry-meta, .entry-title, .entry-utility, #respond label, .navigation, .page-title, .pingback p, .reply, .widget-title, .wp-caption-text {
 	font-family: "Helvetica", Arial, Helvetica, "Arial", sans-serif;
 }
 input[type=submit] {
@@ -90,14 +52,12 @@ code {
 	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
 }
 /* =Global Elements
--------------------------------------------------------------- */
+ -------------------------------------------------------------- */
 /* Main global 'theme' and typographic styles */
 body {
 	background: #fff;
 }
-body,
-input,
-textarea {
+body, input, textarea {
 	color: #000;
 	font-size: 12px;
 	line-height: 20px;
@@ -109,7 +69,6 @@ hr {
 	height: 1px;
 	margin-bottom: 16px;
 }
-
 /* Text elements */
 p {
 	margin-bottom: 18px;
@@ -131,10 +90,7 @@ ol ol ol {
 ol ol ol ol {
 	list-style: lower-alpha;
 }
-ul ul,
-ol ol,
-ul ol,
-ol ul {
+ul ul, ol ol, ul ol, ol ul {
 	margin-bottom: 0;
 }
 dl {
@@ -149,9 +105,7 @@ dd {
 strong {
 	font-weight: bold;
 }
-cite,
-em,
-i {
+cite, em, i {
 	font-style: italic;
 }
 big {
@@ -167,8 +121,7 @@ blockquote {
 }
 
 }
-sup,
-sub {
+sup, sub {
 	height: 0;
 	line-height: 1;
 	position: relative;
@@ -180,30 +133,29 @@ sup {
 sub {
 	top: .5ex;
 }
-input[type="text"],
-textarea {
+input[type="text"], textarea {
 	background: #fff;
 	border: 2px solid #d9d9d9;
 	padding: 2px;
 }
 #header input[type="text"] {
-	border:none;
+	border: none;
 	border-bottom: 1px solid #000000;
 	font-family: "adobe-caslon-pro", serif;
-	font-style:italic;
+	font-style: italic;
 	font-size: 16px;
 	display: inline-block;
-	padding-left:0;
+	padding-left: 0;
 }
 #content input[type="text"] {
 	border: 1px solid #000000;
 	font-family: "adobe-caslon-pro", serif;
-	font-style:normal;
+	font-style: normal;
 	font-size: 16px;
 	display: inline-block;
 }
 .search-icon {
-	width:15px;
+	width: 15px;
 	height: 15px;
 	display: inline-block;
 }
@@ -217,18 +169,16 @@ a:link {
 a:visited {
 	color: #555555;
 }
-a:active,
-a:hover {
+a:active, a:hover {
 	color: #83797a;
 }
 
 .clearfix {
-	display:block;
-	height:0;
-	clear:both;	
+	display: block;
+	height: 0;
+	clear: both;
 }
-/* =Content
--------------------------------------------------------------- */
+/* =Content -------------------------------- */
 
 #main {
 	clear: both;
@@ -237,72 +187,58 @@ a:hover {
 }
 #content {
 	margin-bottom: 36px;
-	
 }
-
 
 .single #content .drop-cap {
-	float:left; font-size:95px; 
-	line-height:.8; 
-	display: block; 
+	float: left;
+	font-size: 95px;
+	line-height: .8;
+	display: block;
 	margin: -5px 10px 0 0;
-	font-family:Impact, Helvetica, Arial, sans-serif;
+	font-family: Impact, Helvetica, Arial, sans-serif;
 }
-
 
 .single #content .entry-content blockquote {
 	background: #eeeeee;
 	font-style: italic;
-	padding:25px 30px; 
+	padding: 25px 30px;
 	margin-bottom: 25px;
 }
 .single #content .entry-content blockquote p:last-child {
-	margin:0;
+	margin: 0;
 }
 
 .single #content .entry-content .incoming {
-	padding:10px 15px !important;	
+	padding: 10px 15px !important;
 }
 .single #content .entry-content .incoming .hide {
-	float:right !important;
-	margin-bottom:-25px;
+	float: right !important;
+	margin-bottom: -25px;
 }
-.single #content .entry-content .incoming .hide a{
-	text-transform:uppercase;
-	color:#83797a;
-	text-decoration:none;	
-	font-family:"Impact", "Arial Black", Gadget, sans-serif;
+.single #content .entry-content .incoming .hide a {
+	text-transform: uppercase;
+	color: #83797a;
+	text-decoration: none;
+	font-family: "Impact", "Arial Black", Gadget, sans-serif;
 }
 .single #content .entry-content .incoming h3 {
-	font-family:"Impact", "Arial Black", Gadget, sans-serif;
-	text-transform:	uppercase;
+	font-family: "Impact", "Arial Black", Gadget, sans-serif;
+	text-transform: uppercase;
 }
-#content ul ul,
-#content ol ol,
-#content ul ol,
-#content ol ul {
+#content ul ul, #content ol ol, #content ul ol, #content ol ul {
 	margin-bottom: 0;
 }
-#content pre,
-#content kbd,
-#content tt,
-#content var {
+#content pre, #content kbd, #content tt, #content var {
 	font-size: 15px;
 	line-height: 21px;
 }
 #content code {
 	font-size: 11px;
 }
-#content dt,
-#content th {
+#content dt, #content th {
 	color: #000;
 }
-#content h1,
-#content h2,
-#content h3,
-#content h4,
-#content h5,
-#content h6 {
+#content h1, #content h2, #content h3, #content h4, #content h5, #content h6 {
 	color: #000;
 	line-height: 1.5em;
 	margin: 0 0 20px 0;
@@ -313,8 +249,7 @@ a:hover {
 	text-align: left;
 	width: 100%;
 }
-#content tr th,
-#content thead th {
+#content tr th, #content thead th {
 	color: #888;
 	font-size: 12px;
 	font-weight: bold;
@@ -333,134 +268,125 @@ a:hover {
 }
 
 #content .post-wrap {
-	
-	position:relative;	
-	margin-bottom:10px;
-	width:700px;
+
+	position: relative;
+	margin-bottom: 10px;
+	width: 700px;
 }
 #content .post-text-wrapper {
-	width:460px;
-	float:right;	
+	width: 460px;
+	float: right;
 }
-body.home .post img.tfe, body.archive .post img.tfe, body.search .post img.tfe  {
-	position:absolute;
-	top:0;
-	left:0;
-	border:5px solid #e6e6e6;
+body.home .post img.tfe, body.archive .post img.tfe, body.search .post img.tfe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: 5px solid #e6e6e6;
 }
 #content .post-wrap img.alignleft {
-	border:5px solid #e6e6e6;
-	margin:5;
-	
-	font-family:"Impact", "Arial Black", Gadget, sans-serif;
-	font-weight:400;
-	text-transform:uppercase;
-	color:#b8b8b8;
-	letter-spacing:.03em;
-	font-size:11px;
-	padding-bottom:8px;
-	margin-bottom:15px;
-	float:left;
+	border: 5px solid #e6e6e6;
+	margin: 5;
+	font-family: "Impact", "Arial Black", Gadget, sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #b8b8b8;
+	letter-spacing: .03em;
+	font-size: 11px;
+	padding-bottom: 8px;
+	margin-bottom: 15px;
+	float: left;
 }
 
 ]
 }
 .category .page-title {
-	display:none;
+	display: none;
 }
-.category.category-web-exclusive .page-title,
-.category.category-artnewsletter-archive .page-title {
-	display:block;
-	text-align:center;
-	border-bottom:2px solid #d9d9d9;
-	text-transform:uppercase;
-	padding-bottom:10px;
+.category.category-web-exclusive .page-title, .category.category-artnewsletter-archive .page-title {
+	display: block;
+	text-align: center;
+	border-bottom: 2px solid #d9d9d9;
+	text-transform: uppercase;
+	padding-bottom: 10px;
 }
 
 body.tax-issue .page-title, .search .page-title {
-	display:inherit;
-}	
+	display: inherit;
+}
 .page-title span {
 	color: #333;
 	font-size: 14px;
 	font-style: italic;
 	font-weight: normal;
 }
-.page-title a:link,
-.page-title a:visited {
+.page-title a:link, .page-title a:visited {
 	color: #888;
 	text-decoration: none;
 }
-.page-title a:active,
-.page-title a:hover {
+.page-title a:active, .page-title a:hover {
 	color: #ff4b33;
 }
 #content .entry-title {
 	color: #000;
 	font-size: 2em !important;
-	font-size:14px \9 !important;
-	font-size:2em \0/ !important;
+	font-size: 14px \9 !important;
+	font-size: 2em \0/ !important;
 	line-height: 1;
 	margin-bottom: 10px;
-	font-family:"Impact", "Arial Black", Gadget, sans-serif;
-	font-weight:400;
+	font-family: "Impact", "Arial Black", Gadget, sans-serif;
+	font-weight: 400;
 	text-transform: uppercase;
-	border:none;
+	border: none;
 }
 .page #content .entry-title {
-	margin-bottom:15px;
+	margin-bottom: 15px;
 }
-.entry-title a:link,
-.entry-title a:visited {
-	border:none;
+.entry-title a:link, .entry-title a:visited {
+	border: none;
 	color: #000;
 	text-decoration: none;
 }
-.entry-title a:active,
-.entry-title a:hover {
+.entry-title a:active, .entry-title a:hover {
 	color: #83797a;
 }
 .entry-meta {
 	color: #777777;
 	font-size: 12px;
-	font-family:"adobe-caslon-pro", Georgia, "Times New Roman", Times, serif;
-	text-transform:uppercase;
+	font-family: "adobe-caslon-pro", Georgia, "Times New Roman", Times, serif;
+	text-transform: uppercase;
 }
-.entry-meta abbr,
-.entry-utility abbr {
+.entry-meta abbr, .entry-utility abbr {
 	border: none;
 }
-.entry-meta abbr:hover,
-.entry-utility abbr:hover {
+.entry-meta abbr:hover, .entry-utility abbr:hover {
 	border-bottom: 1px dotted #666;
 }
-.entry-content,
-.entry-summary {
+.entry-content, .entry-summary {
 	clear: both;
 	padding: 5px 0 0 0;
 }
 .entry-summary {
-	font-size:17px;	
+	font-size: 17px;
 }
 #content .entry-summary a .read-more {
-	display:block;
-	text-transform:uppercase;
-	font-family:"Impact", "Arial Black", Gadget, sans-serif;
-	font-weight:900;
-	text-decoration:none !important;
-	font-size:8px;
-	color:#b5b5b5;
-	clear:both;
-	border:none !important;
+	display: block;
+	text-transform: uppercase;
+	font-family: "Impact", "Arial Black", Gadget, sans-serif;
+	font-weight: 900;
+	text-decoration: none !important;
+	font-size: 8px;
+	color: #b5b5b5;
+	clear: both;
+	border: none !important;
 }
 #content .entry-summary a:hover .read-more {
-	color:#83797a;
+	color: #83797a;
 }
 #content .entry-summary p:last-child {
 	margin-bottom: 12px;
 }
 #content .entry-summary a {
-	text-decoration:none;	
+	text-decoration: none;
 }
 .entry-content fieldset {
 	border: 1px solid #e7e7e7;
@@ -476,8 +402,7 @@ body.tax-issue .page-title, .search .page-title {
 .entry-content input {
 	margin: 0;
 }
-.entry-content input.file,
-.entry-content input.button {
+.entry-content input.file, .entry-content input.button {
 	margin-right: 0;
 }
 .entry-content label {
@@ -487,8 +412,7 @@ body.tax-issue .page-title, .search .page-title {
 .entry-content select {
 	margin: 0 0 24px 0;
 }
-.entry-content sup,
-.entry-content sub {
+.entry-content sup, .entry-content sub {
 	font-size: 10px;
 }
 .entry-content blockquote.left {
@@ -512,15 +436,14 @@ body.tax-issue .page-title, .search .page-title {
 	margin: 0 0 22px 0;
 	word-spacing: 0;
 	font-size: 1em;
-	font-family:"Impact", sans-serif;
+	font-family: "Impact", sans-serif;
 	text-transform: uppercase;
 }
 .page-link a {
-	margin:0 10px;
+	margin: 0 10px;
 }
 
-.page-link a:link,
-.page-link a:visited {
+.page-link a:link, .page-link a:visited {
 	background: #f1f1f1;
 	color: #333;
 	font-weight: normal;
@@ -533,10 +456,8 @@ body.tax-issue .page-title, .search .page-title {
 	background: #d9e8f7;
 }
 
-.page-link a:active,
-.page-link a:hover {
+.page-link a:active, .page-link a:hover {
 	color: #83797a;
-	
 }
 body.page .edit-link {
 	clear: both;
@@ -573,23 +494,23 @@ body.page .edit-link {
 .entry-utility {
 	clear: both;
 	color: #888;
-	font-size:9px;	
+	font-size: 9px;
 	line-height: 18px;
-	font-family:"Impact", sans-serif;
-	font-weight:400;
-	text-transform:uppercase;
-	margin-bottom:12px;
+	font-family: "Impact", sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin-bottom: 12px;
 }
 #content .entry-utility.article-tags {
-	margin-bottom:25px;	
+	margin-bottom: 25px;
 }
 #content .entry-utility.article-tags h3 {
-	margin-bottom:5px;	
+	margin-bottom: 5px;
 	font-size: 14px;
 	text-align: center;
 }
 #content .entry-utility.article-tags ul {
-	background:#e6e6e6;
+	background: #e6e6e6;
 	-moz-column-count: 3;
 	-moz-column-gap: 15px;
 	-webkit-column-count: 3;
@@ -597,167 +518,139 @@ body.page .edit-link {
 	column-count: 3;
 	column-gap: 15px;
 	-webkit-column-rule: 1px solid #e6e6e6;
-    -moz-column-rule: 1px solid #e6e6e6;
-    column-rule: 1px solid #e6e6e6;	
-	list-style:none;
-	margin:0;
-	padding:20px 25px;
-	line-height:1.3;
-	font-size:12px;
+	-moz-column-rule: 1px solid #e6e6e6;
+	column-rule: 1px solid #e6e6e6;
+	list-style: none;
+	margin: 0;
+	padding: 20px 25px;
+	line-height: 1.3;
+	font-size: 12px;
 }
-#content .entry-utility.article-tags ul li{
-	margin-bottom:7px;	
+#content .entry-utility.article-tags ul li {
+	margin-bottom: 7px;
 }
-.entry-meta a,
-.entry-utility a {
+.entry-meta a, .entry-utility a {
 	color: #000;
-	text-decoration:none;
-	border:none \9;
+	text-decoration: none;
+	border: none \9;
 }
 .entry-meta a {
-	font-weight:bold;
-	font-style:italic;
-	text-transform:none;
-	font-size:12px;	
+	font-weight: bold;
+	font-style: italic;
+	text-transform: none;
+	font-size: 12px;
 }
-.entry-meta a:hover,
-.entry-utility a:hover {
+.entry-meta a:hover, .entry-utility a:hover {
 	color: #83797a;
 }
 .author-meta-name, .author-meta-name a {
-	border:none;	
+	border: none;
 }
 
 #content .video-player {
 	padding: 0;
 }
-.cat-links,
-.issue-btn {
+.cat-links, .issue-btn {
 	display: inline-block;
 	margin-top: -30px;
 	position: relative;
-	top:-33px;
+	top: -33px;
 	z-index: 1;
 }
 
-.cat-links a,
-.issue-btn a   {
+.cat-links a, .issue-btn a {
 	background: #ffffff;
-	padding:10px;
-	margin:0 10px;
-	font-size:12px;
+	padding: 10px;
+	margin: 0 10px;
+	font-size: 12px;
 	font-weight: 400;
 	display: inline-block;
 }
 .entry-utility.entry-cats {
 	text-align: center;
-	margin:1px 0 -33px;
+	margin: 1px 0 -33px;
 }
 .single .entry-utility.entry-cats {
-	margin-top:-13px;
+	margin-top: -13px;
 }
 .cat-rule {
-	border-top:1px solid #000000;
-	margin:0 0 -30px;
-	padding:0;
+	border-top: 1px solid #000000;
+	margin: 0 0 -30px;
+	padding: 0;
 	height: 0;
 	background-color: none;
 }
-.entry-utility .cat-links a:hover  {
-	
+.entry-utility .cat-links a:hover {
+
 }
-.entry-utility .issue-btn a,
-.entry-utility .cat-links a.cat-web-exclusive {
-	padding:10px;	
-	font-size:12px;
+.entry-utility .issue-btn a, .entry-utility .cat-links a.cat-web-exclusive {
+	padding: 10px;
+	font-size: 12px;
 }
- 
-.entry-utility .issue-btn a:hover,
-.entry-utility .cat-links a.cat-web-exclusive:hover  {
-	
+
+.entry-utility .issue-btn a:hover, .entry-utility .cat-links a.cat-web-exclusive:hover {
+
 }
 .excerpt-pull-quote {
-	padding:15px 0 5px;
-	margin-bottom:10px;
-	border-top:1px solid #b5b5b5;
-	border-bottom:1px solid #b5b5b5;	
+	padding: 15px 0 5px;
+	margin-bottom: 10px;
+	border-top: 1px solid #b5b5b5;
+	border-bottom: 1px solid #b5b5b5;
 }
 #content .excerpt-pull-quote h3 {
-	margin:0;	
-	font-size:1.5em;
-	line-height:1.3;
+	margin: 0;
+	font-size: 1.5em;
+	line-height: 1.3;
 }
 #content .excerpt-pull-quote h3 em {
-	font-style:normal;
+	font-style: normal;
 }
 .text-sizer {
 	display: block;
-	float:right;	
+	float: right;
 	background: #ffffff;
-	margin-bottom:-20px;
-	padding:5px;
+	margin-bottom: -20px;
+	padding: 5px;
 }
 
 /*
-Resize images to fit the main content area.
-- Applies only to images uploaded via WordPress by targeting size-* classes.
-- Other images will be left alone. Use "size-auto" class to apply to other images.
-*/
-img.size-auto,
-img.size-full,
-img.size-large,
-img.size-medium,
-.attachment img {
+ Resize images to fit the main content area.
+ - Applies only to images uploaded via WordPress by targeting size-* classes.
+ - Other images will be left alone. Use "size-auto" class to apply to other images.
+ */
+img.size-auto, img.size-full, img.size-large, img.size-medium, .attachment img {
 	max-width: 100%; /* When images are too wide for containing element, force them to fit. */
 	height: auto; /* Override height to match resized width for correct aspect ratio. */
 }
 
-.alignleft,
-img.alignleft {
+.alignleft, img.alignleft {
 	display: inline;
 	float: left;
 	margin-right: 24px;
 	margin-top: 44px;
-	 border-style: solid;
-    border-width: 6px;
-   border-color: #ededed;
+	border-style: solid;
+	border-width: 6px;
+	border-color: #ededed;
 }
-.alignright,
-img.alignright {
+.alignright, img.alignright {
 	display: inline;
 	float: left;
 	margin-left: 24px;
 	margin-top: 4px;
 }
-.aligncenter,
-img.aligncenter {
+.aligncenter, img.aligncenter {
 	clear: both;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
-img.alignleft,
-img.alignright,
-img.aligncenter {
+img.alignleft, img.alignright, img.aligncenter {
 	margin-bottom: 12px;
-}
-.wp-caption {
-	background: #fff;
-	border:1px solid #b5b5b5;
-	line-height: 1.2;
-	margin-bottom: 20px;
-	max-width: 688px !important; /* prevent too-wide images from breaking layout */
-	padding: 5px;
-	text-align: left;
-}
-.wp-caption img {
-	margin:5px;
-	max-width:678px;
 }
 #content .wp-caption p.wp-caption-text, #content .wp-caption p {
 	font-family: "Helvetica", Arial, Helvetica, "Arial", sans-serif !important;
 	color: #555555;
 	font-size: 12px;
-	padding:5px;
-	margin-bottom:0;
+	padding: 5px;
+	margin-bottom: 0;
 }
