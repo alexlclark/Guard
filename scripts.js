@@ -1,4 +1,4 @@
-for (var i=0; i<guardianHeroinData.length; i++) {
+*/for (var i=0; i<guardianHeroinData.length; i++) {
 
 
 var rowData = guardianHeroinData[i];
@@ -9,4 +9,4 @@ var template = '<div class="quoteContainer" id=quote-'+i+>'+
 '<div class="yearsClean">22 Years Clean</div>'+
 '<div class="Location">London, UK</div>'+
 '</div>'+
-}
+}/*
