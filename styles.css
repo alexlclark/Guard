@@ -1,23 +1,5 @@
-//Publication: ArtNews > see http://www.artnews.com/
-
-//Publication: ArtNews > see http://www.artnews.com/
-
-
-/*
-/*   
-Theme Name: ARTnews Mag
-Theme URI: http://trasaterra.com
-Description: ARTnews Mag is a child theme of Twenty Ten.
-Author: Jason Paul & Ewa Orzech â€” Trasaterra.com
-Author URI: http://trasaterra.com
-Template: twentyten
-Version: 1.0
-Tags: black, blue, white, two-columns, fixed-width, custom-header, custom-background, threaded-comments, sticky-post, translation-ready, microformats, rtl-language-support, editor-style
+/*Publication: ArtNews > see http://www.artnews.com/
 */
-
-
-/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
--------------------------------------------------------------- */
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -62,68 +44,6 @@ table {
 a img {
 	border: none;
 }
-
-/* =Layout
--------------------------------------------------------------- */
-
-/*
-LAYOUT: Two columns
-DESCRIPTION: Two-column fixed layout with one sidebar right of content
-*/
-
-#container {
-	float: left;
-	margin: 0px -318px 0 0;
-	width: 100%;
-	
-}
-#container.container-right {
-	float:right;
-}
-#content {
-	margin: 0 318px 0 0px;
-}
-
-#primary,
-#secondary {
-	float: right;
-	width: 302px;
-}
-#secondary {
-	clear: right;
-	width: 302px;
-}
-#primary.primary-left,
-#secondary.secondary-left {
-	float:left;
-}
-#footer {
-	clear: both;
-	width: 100%;
-}
-
-
-
-/*
-LAYOUT: One column, no sidebar
-DESCRIPTION: One centered column with no sidebar
-*/
-
-.one-column #content {
-	margin: 0 auto;
-	width: 1015px;
-}
-
-/*
-LAYOUT: Full width, no sidebar
-DESCRIPTION: Full width content with no sidebar; used for attachment pages
-*/
-
-.single-attachment #content {
-	margin: 0 auto;
-	width: 900px;
-}
-
 /* =Fonts
 -------------------------------------------------------------- */
 body,
@@ -168,48 +88,6 @@ pre {
 }
 code {
 	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
-}
-
-
-/* =Structure
--------------------------------------------------------------- */
-
-/* The main theme structure */
-#access .menu-header,
-div.menu,
-#colophon,
-#branding,
-#main,
-#wrapper {
-	margin: 0 auto;
-	width: 1015px;
-}
-#wrapper {
-	background: #fff;
-	padding: 0 0px;
-}
-
-/* Structure the footer area */
-#footer-widget-area {
-	overflow: hidden;
-}
-#footer-widget-area .widget-area {
-	float: left;
-	margin-right: 20px;
-	width: 220px;
-}
-#footer-widget-area #fourth {
-	margin-right: 0;
-}
-#site-info {
-	float: left;
-	font-size: 14px;
-	font-weight: bold;
-	width: 700px;
-}
-#site-generator {
-	float: right;
-	width: 240px;
 }
 
 
