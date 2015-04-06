@@ -123,41 +123,6 @@ DESCRIPTION: Full width content with no sidebar; used for attachment pages
 	margin: 0 auto;
 	width: 900px;
 }
-/*---MISC Styling----*/
-#container #order-btn {
-	display:block;
-	padding:7px 10px;
-	border:solid 1px #999;
-	margin-bottom:5px;	
-	float:right;
-}
-body.tax-issue #content {
-	*width:620px !important;
-	*float:left;
-}
-body.tax-issue #container {
-	*margin-right:-340px;
-	*overflow:visible;
-	*position:relative;	
-}
-body.tax-issue #issue-description {
-	float:right;
-	width:300px;
-	font-size:13px;
-	line-height:1.3;
-	clear:left;
-	margin-bottom:20px;
-	/**position:absolute;
-	*top:0;
-	*margin-top:255px;
-	*right:0;*/
-}
-body.tax-issue #issue-description img {
-	width:300px;
-	height:auto;
-}
-
-
 
 /* =Fonts
 -------------------------------------------------------------- */
@@ -462,244 +427,6 @@ a:hover {
 }
 
 
-
-/* Top widget areas */
-#top-widgets {
-	float:right;
-}
-#top-widgets input[type="text"], .widget_sswidget input[type="text"] {
-	
-}
-#top-widgets input[type="text"]:focus, .widget_sswidget input[type="text"]:focus {
-	
-}
-#top-widgets #searchform, .widget_sswidget input[type="text"] {
-
-}
-#top-widgets input#searchsubmit  {
-	
-}
-.widget_sswidget {
-		
-}
-
-.widget_sswidget input[type="text"]  {
-	
-}
-
-
-.widget_sswidget input[type="submit"] {
-	
-}
-.widget_sswidget select {
-	
-}
- /* iPad [portrait + landscape] */ 
- @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) { 
-	
- }
-  /* iPhone [portrait + landscape] */ 
-@media only screen and (max-device-width: 480px) { 
-	
- }
-#top-widgets ul{
-	margin:0;
-	
-}
-#top-widgets li{
-	list-style:none;
-}
-#top-widgets .widget {
-	float:left;	
-}
-#top-widgets .widget_text {
-		
-}
-#top-widgets .widget_sp_image {
-	
-}
-#top-widgets .widget_sp_image h2.widgettitle {
-	
-}
-
-#top-widgets .scfw {
-	
-}
-ul.top-cta-box {
-	font-style: italic;
-	font-size: 15px;
-}
-ul.top-cta-box a {
-	text-decoration: none;
-	color:#000000;
-	display: block;
-	padding-bottom: 3px;
-}
-ul.top-cta-box a:hover {
-	color: #83797a;
-}
-ul.top-cta-box li {
-	
-}
-
-/*Popular Posts*/
-img.wpp-thumbnail {
-	/*margin-right:10px;	*/
-}
-.wpp-post-title,
-img.wpp-thumbnail {
-	/*display:inline-block;
-	vertical-align:text-top;*/
-}
-.wpp-post-title {
-	/*height:75px;
-	width:200px;	*/
-}
-
-
-
-/*--- Top Nav Links ---*/
-
-#top-bar {
-	background:#000;
-	height:30px;
-	margin:0;
-	padding:0;
-}
-#top-links-holder {
-	width:1015px;
-	margin:0 auto;
-	position:relative;		
-}
-.page-nav{
-	line-height:30px;
-	font-family:"futura-pt", "Arial Black", Gadget, sans-serif;
-	font-weight:400;
-	font-size:11px;
-}
-.page-nav ul#menu-pages {
-	list-style:none;
-	padding:0;
-	margin:0;
-}
-.page-nav #menu-pages li {
-	float:left;
-	padding:0;
-	margin:0;
-	margin-right:20px;
-	text-transform: uppercase;
-}
-.page-nav a{
-	color:#fff;	
-	text-decoration:none;
-}
-.page-nav a:hover, .page-nav .current_page_item a, .home .page-nav #menu-item-8718 a {
-	color:#83797a;	
-}
-#social-icons {
-	float:left;
-	margin-top:5px;
-}
-
-#social-icons ul li{
-		list-style:none;
-		float:left;
-}
-#social-icons ul li a{
-	display:block;
-	width:20px;
-	height:20px;
-	padding-right:10px;
-	float:left;
-}
-#social-icons ul li a:hover {
-	opacity: .7;
-}	
-#social-icons ul li a img {
-	height: 20px;
-	width: 20px;
-}
-.online-resources-btn {
-	display: block;
-	float:right;
-	background: #ffffff;
-	color:#000000;
-	font-family: "futura-pt", sans-serif;
-	text-transform: uppercase;
-	font-size: 16px;
-	line-height: 34px;
-	text-decoration: none;
-	width:190px;
-	text-align: center;
-	padding:0;
-	margin:0;
-}
-.online-resources-btn:hover {
-	color:#83797a;
-}
-.online-resources-btn .caret {
-	width:6px;
-	height: 11px;
-	display: inline-block;
-}
-
-/* =Menu
--------------------------------------------------------------- */
-
-#access {
-	display: block;
-	float: left;
-	margin: 0 auto 20px;
-	padding:0;
-	width: 1015px;
-	border-top:1px solid #d9d9d9;
-	border-bottom:1px solid #d9d9d9;
-	height: 50px;
-}
-#access .menu-header,
-div.menu {
-	font-size: 17px;
-	text-transform:uppercase;
-	padding:0;
-	margin:0;
-	
-}
-#access .menu-header ul,
-div.menu ul {
-	list-style: none;
-	margin: 0;
-	padding:0;
-	text-align: justify;
-    min-width: 1015px;
-	text-align: justify;
-	font-family: 'futura-pt', sans-serif;
-}
-#access .menu-header li,
-div.menu li {
-	display: inline-block;
-}
-#menu-main:after {
-    content: '';
-    display: inline-block;
-    width: 100%;
-}
-
-#access a {
-	color: #000000;
-	display: block;
-	line-height: 50px;
-	padding: 0;
-	margin:0;
-	text-decoration: none;
-}
-
-#access li a:hover,
-#access li.current-menu-item a {
-	color:#83797a;
-}
-
-
-
 /* =Content
 -------------------------------------------------------------- */
 
@@ -713,25 +440,6 @@ div.menu li {
 	
 }
 
-#nav-below {
-	clear:both;	
-}
-
-#content,
-#content input,
-#content textarea {
-	color: #000;
-	font-size: 1.2em;
-	line-height: 1.5em;
-}
-#content p,
-#content ul,
-#content ol,
-#content dd,
-#content pre,
-#content hr {
-	margin-bottom: 24px;
-}
 
 .single #content .drop-cap {
 	float:left; font-size:95px; 
@@ -1238,7 +946,6 @@ body.page .edit-link {
 }
 /* =Asides
 -------------------------------------------------------------- */
-
 .home #content .format-aside p,
 .home #content .category-asides p {
 	font-size: 14px;
@@ -1256,42 +963,8 @@ body.page .edit-link {
 }
 
 
-/* =Gallery listing
--------------------------------------------------------------- */
-
-.format-gallery .size-thumbnail img,
-.category-gallery .size-thumbnail img {
-	border: 10px solid #f1f1f1;
-	margin-bottom: 0;
-}
-.format-gallery .gallery-thumb,
-.category-gallery .gallery-thumb {
-	float: left;
-	margin-right: 20px;
-	margin-top: -4px;
-}
-.home #content .format-gallery .entry-utility,
-.home #content .category-gallery .entry-utility {
-	padding-top: 4px;
-}
 
 
-/* =Attachment pages
--------------------------------------------------------------- */
-
-.attachment .entry-content .entry-caption {
-	font-size: 140%;
-	margin-top: 24px;
-}
-.attachment .entry-content .nav-previous a:before {
-	content: '\2190\00a0';
-}
-.attachment .entry-content .nav-next a:after {
-	content: '\00a0\2192';
-}
-
-/* =Images
--------------------------------------------------------------- */
 
 /*
 Resize images to fit the main content area.
@@ -1312,12 +985,12 @@ img.alignleft {
 	display: inline;
 	float: left;
 	margin-right: 24px;
-	margin-top: 4px;
+	margin-top: 44px;
 }
 .alignright,
 img.alignright {
 	display: inline;
-	float: right;
+	float: left;
 	margin-left: 24px;
 	margin-top: 4px;
 }
@@ -1408,7 +1081,7 @@ img.aligncenter {
 
 .navigation {
 	color: #888;
-	font-size: 12px;
+	font-size: 14px;
 	line-height: 18px;
 	overflow: hidden;
 	font-family: "futura-pt", sans-serif;
@@ -1470,7 +1143,7 @@ img.aligncenter {
 
 
 #main .widget-area ul ul li a {
-	font-size:14px;
+	font-size:15px;
 	font-family:"futura-pt", "Arial Black", Gadget, sans-serif;
 	font-weight:400;
 	text-decoration:none;
@@ -1682,7 +1355,7 @@ ul.advanced-recent-posts li {
 .toc-wrapper #content h2 {
 	font-family:"futura-pt", "Arial Black", Gadget, sans-serif;
 	text-transform: uppercase;
-	font-size: 24px;
+	font-size: 28px;
 }
 
 .toc-wrapper #content .wp-caption {
@@ -1731,79 +1404,6 @@ ul.advanced-recent-posts li {
 
 
 
-
-/* =Issue Description
-------------------------------------------------------------- */
-body.tax-issue #main {
-	overflow: hidden;
-}
-
-body.tax-issue #primary {
-	margin-top:0;	
-}
-
-
-
-body.tax-issue #issue-description h2 {
-	display:block;
-	text-align:center;
-	font-family:"futura-pt", "Arial Black", Gadget, sans-serif;
-	font-weight:400;
-	border-bottom:1px solid #999999;
-	padding-bottom:4px;
-	margin-bottom:10px;
-	color:#999999;	
-	font-size:12px;
-	text-transform:uppercase;
-}
-body.tax-issue #issue-description .Cart66Price {
-	display:none;
-}	
-body.tax-issue #issue-description p strong {
-	
-	font-family:"futura-pt", "Arial Black", Gadget, sans-serif;
-	font-weight:900;
-	
-}
-body.tax-issue #issue-description p.toc-reviews strong {
-	font-family: "futura-pt", Arial, Helvetica, "Nimbus Sans L", sans-serif;
-	font-weight:bold;	
-}
-body.tax-issue #issue-description p.toc-reviews img {
-	border:4px;
-	margin:-4px;
-}
-
-body.tax-issue #issue-description p br {
-	display:block;
-	margin:0;
-	height:0;	
-}
-body.tax-issue #issue-description p strong em {
-	font-family:"adobe-caslon-pro", Georgia, "Times New Roman", Times, serif;
-	font-size:12px;
-	margin-left:15px;	
-}
-body.tax-issue #issue-description p span {
-	font-weight:bold;
-	color:#000 !important;
-	font-size:12px !important;	
-}
-body.tax-issue #issue-description h3 {
-	font-family:"futura-pt", "Arial Black", Gadget, sans-serif;
-	font-weight:400;
-	font-size:17px;
-	text-transform: uppercase;
-	margin-bottom: 5px;
-}
-body.tax-issue #issue-description h3 strong {
-	font-weight: 400;
-}
-body.tax-issue #issue-description small{
-	font-weight:bold;
-	text-transform:uppercase;
-	font-size:12px;
-}
 
 /* =Footer
 -------------------------------------------------------------- */
