@@ -1,17 +1,16 @@
 .quoteContainer {
 	clear: both;
 }
-
 .mainQuote {
 	border-top: 4px solid #000000;
 	border-bottom: 4px solid #000000;
 	padding: 15px 0;
 	margin: 8px 0 10px 22px;
 	display: block;
-	width: 700px;
+	width: 900px;
 	float: center;
 	font-family: Georgia, "Times New Roman", "Bitstream Vera Serif", serif;
-	font-size: 22px;
+	font-size: 19px;
 	line-height: 2px;
 	letter-spacing: -0.5px;
 }
@@ -46,6 +45,7 @@
 	color: grey;
 	font-family: Geneva, sans-serif;
 	-webkit-margin-before: 1em;
+	font-size: 12px;
 	-webkit-margin-after: 2em;
 	-webkit-margin-start: 0px;
 	-webkit-margin-end: 0px;
