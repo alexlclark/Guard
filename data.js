@@ -2,7 +2,7 @@ var artNewsData = [
     {  
         "mainQuote":"Secret Grandeur: Leo Steinberg on an Early Velazquez Masterpiece, in 1971",
         "wholeQuote":"But never thought of using it. It never made anything better, just worse. Look, every junky is always â€œconsideringâ€ getting clean. Every junky wants to be clean. Every using junky also wants more heroin. Call it a contradiction call it what you want. But no junky wants the life they have.",
-        "source":"<img src="/IMG_8265-11-120x120.jpg">,
+        "source":"James",
         "yearsClean":"26 years clean",
         "location":"Sydney, Australia"
     },
