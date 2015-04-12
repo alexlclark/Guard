@@ -15,7 +15,6 @@ for (var i=0; i<guardianHeroinData.length; i++) {
 $template.find(".readMore").on("click", toggleContent)
 
 function toggleContent(){
-	
 	$quoteContainer = $(this).parent();
 	
 	if($quoteContainer.hasClass("expanded")){// quoteContainer has class .expanded (you can see content!), so remove content!
