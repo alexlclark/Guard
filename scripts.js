@@ -1,5 +1,5 @@
-for (var i=0; i<guardianHeroinData.length; i++) {
-	var rowData = guardianHeroinData[i];
+for (var i=0; i<artNewsData.length; i++) {
+	var rowData = artNewsData[i];
 	
 	var $template = $('<div class="quoteContainer">'+
 						'<div class="mainQuote">'+rowData.mainQuote+'</div>'+
